@@ -1,4 +1,4 @@
-What is Flutter?
+What is Flutter?(Dart based)
 
     A tool that allows you to build native and cross-platform apps one programming language and codebase.
 
@@ -38,4 +38,4 @@ Benefits of Flutter.
     5. Custom, Animated UI of any Complexity Available.
     6. Similar to native App performance
     7. Own rendering engine
-    8. Simple
+    8. Simple platform-specific logic implementation
