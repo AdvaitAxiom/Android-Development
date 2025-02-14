@@ -1,4 +1,41 @@
 What is Flutter?
+
+    A tool that allows you to build native and cross-platform apps one programming language and codebase.
+
+    Cross-Platform
+        A cross-platform (MULTIPLATFORM / PLATFORM INDEPNDENT) computer product or system is a product or system that can work across multiple types of platforms or operating environments. 
+
+        tool eg- Flutter, React Native
+
+    Native
+        An app developed exclusively for a single platform using a native-to-the-os language is a Native app.
+
+        tool eg- Android Studio, X Code
+
+    Hybrid
+        A blend solution that conssits of both native and web solutions.
+
+        Developers embed the code written with web dev languGES(html, css, js) into a native app using plugins like Apace Cordova orIonic's Capacitor.
+
+        tool eg- Visual Studio, ionic
+
+
 WHy is Flutter?
+
 How it is betterthan counterparts?
+
+    In case of RaisedButton(),
+        If it was native then for ios it will call UIButton and in case of android it will call Widget.Button during runtime.So they will need platform specific component and libary at runtime.
+
+        But in case of Flutter, it doesn't required native component or library to run because it has its own rendering engine.It will directly control every pixel which is drawn(Custom Implementation).
+
 Benefits of Flutter.
+
+    1. Increased time to market speed
+    2. Reduced code development time
+    3. The potential ability to go beyond mobile
+    4. Same UI and Business Logic in All platforms
+    5. Custom, Animated UI of any Complexity Available.
+    6. Similar to native App performance
+    7. Own rendering engine
+    8. Simple
