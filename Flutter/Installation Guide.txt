@@ -1,2 +1,30 @@
 Browser-->Flutter sdk download-->https://flutter-ko.dev/get-started/install
- in url--> Windows--> Get Flutter SDK
+ in url--> Windows--> Get Flutter SDK--->Extract
+Set environment variable--> User variable--> Path
+If path not available--> New-->Name = path & variabele value = path of flutter bin folder
+If available--> Select path--> Add bin path of flutter
+
+checking-- cmd--> write flutter
+cmd--> flutter doctor--> this will tell if the installation is proper or not. Which dependencies are left over.
+[x] marked are required
+[!] marked are warning
+[✔] ok
+
+install android studio-->https://developer.android.com/studio
+install vs code-->
+
+in android studio-->next-->Tick android virtual Device--> then standard-> accept licenses-> finish(Download start)
+
+go to cmd--> flutter doctor--> see errors
+
+go to android studio--> more actions--> SDK Manager--> sdk tools--> Android SDK Comman- line Tools(latest)--> tick and download--> ok-->confirm change--> Accept liscence-- > next
+
+go to cmd--> flutter doctor--> see issues-->Some Android liscenses not accepted--> to resolve run code---> write all y
+
+go to android studio--> if new flutter project is not occuring--> go to plugins--> install flutter and restart android app
+
+click new flutter project--> Generators--> Flutter--> Put the flutter sdk path in it
+
+(NOT BIN PATH)--> only required when executing in cmd
+
+to create flutter project from cmd--> flutter create <project_name>
