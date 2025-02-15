@@ -28,3 +28,5 @@ click new flutter project--> Generators--> Flutter--> Put the flutter sdk path i
 (NOT BIN PATH)--> only required when executing in cmd
 
 to create flutter project from cmd--> flutter create <project_name>
+
+NDK Error--> android studio-->SDK Manager--> sdk tools--> install NDK(Side by Side)
