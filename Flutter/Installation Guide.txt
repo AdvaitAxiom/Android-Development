@@ -29,4 +29,22 @@ click new flutter project--> Generators--> Flutter--> Put the flutter sdk path i
 
 to create flutter project from cmd--> flutter create <project_name>
 
-NDK Error--> android studio-->SDK Manager--> sdk tools--> install NDK(Side by Side)
+NDK Error--> android studio-->SDK Manager--> sdk tools--> install NDK(Side by Side) or reinstall.
+or,
+
+Download NDK from the NDK Archive.---(https://developer.android.com/ndk/downloads)
+Extract it to:
+C:\Users\User\AppData\Local\Android\sdk\ndk\25.2.9519653--->(LATEST STABLE VERSION NUMBER)
+Update the ndkVersion in local.properties
+
+Open your Flutter project.
+Navigate to android/local.properties
+Add or modify this line:
+ndkVersion=25.2.9519653(LATEST STABLE VERSION NUMBER)
+
+
+CLEAN AND REBUILD:
+
+flutter clean
+flutter pub get
+flutter build apk
