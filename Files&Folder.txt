@@ -1,0 +1,71 @@
+.idea--> contains code editor's project related specific settings specific files.
+No need to make manual changes here.
+
+#############################################################
+
+android--> contains the android platform specific settings, resources and code.
+If we need to write any android specific code, we need to make changes here.
+
+#############################################################
+
+build--> Contains the output generated when we build or run the flutter project.
+We will find all these relaease related files/folders like apks and app bundles in here.
+(AS FOR DIFFERENT PLATFORMS THERE ARE DIFFERENT EXECUTABLE FILES )
+Orange color folder--> run time generated folder
+
+#############################################################
+DEBUG MODE AND RELEASE MODE
+#############################################################
+
+iOS--> Similar to android folder, the ios folder contains iOS Specific settings, resources and code.
+We will make the platform specific code or changes in here
+
+#############################################################
+
+lib--> Library folder is the main code folder where we will write all the Flutter app related codes.
+Initially it iwll contain just one single file main.dart which has the entry point for a flutter app.
+
+#############################################################
+
+test-->The test folder is set to contain any testing related codes that we write.
+If we decide to write tests/test cases, we will be adding code here.
+
+#############################################################
+
+.gitignore-->This is a git specific file.We can adjust the .gitignore file to include/exclude any files/
+folders as your need.
+
+#############################################################
+
+.metadata--> As name suggests, the .metadata file contains Flutter prcject related metadata that Flutter tool uses.
+You should not make any manual changes to this file.
+
+#############################################################
+
+.packages--> preinstalled packages and user defined packages
+A Flutter prcject code is composed of numerous libraries and packages.
+Some packages are pre-installed with Flutter while others are downloaded during development.
+The .packages holds the path to each of the libraries/packages in your local computer.
+You do not need to make any manual changess to this file.
+
+#############################################################
+
+pubspec.yaml--> font style, library adding image adding every declaration is done here.
+The pubspec.yaml contains Flutter app specific metadata and configurations.
+You can configure dependencies such as external packages, image assets, font files, app versions etc. with the help of this file.
+You will often make changes to the pubspec.yaml file to add external dependencies.
+
+#############################################################
+
+pubspec.lock--> The pubspec.lock file is a helper file created next to puspec.yaml file.
+It lists the specific versions of each dependency that packages use in your app and ensures the version stays consistent across different developers machine.
+No need to make any changes.
+
+Packages libraries that will be built and used during runtime with "pub get" then this .lock file is create at runtime. It should be in .gitignore
+
+#############################################################
+
+README.md-->The readme.md is a markdown format file which is primarily used to describe your prcject in git repo.
+You can write prcject specific things like what your prcject does or how to use certain libraries in the  README.md file.
+
+#############################################################
