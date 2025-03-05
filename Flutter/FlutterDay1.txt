@@ -1,0 +1,8 @@
+FLUTTER WIDGET---->
+
+1.Widget are of widgets(two):
+    Visible
+    Non-Visible
+
+Statefull Widget
+Stateless Widget
